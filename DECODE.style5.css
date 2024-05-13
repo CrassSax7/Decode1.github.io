@@ -276,17 +276,16 @@ sectionG{
   .dropdown {
     
     display: block;
-    
     margin-right: 20px;
-    
     color:rgb(130, 130, 130);
     max-width: 90px;
     max-height: 120px;
-    
-    
-    
   }
-  
+    @media screen and (max-width:600px) {
+    .dropdown-content {
+      right: 10vw;
+    }
+  }
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
