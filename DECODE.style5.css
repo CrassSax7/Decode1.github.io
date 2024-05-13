@@ -283,7 +283,7 @@ sectionG{
   }
     @media screen and (max-width:600px) {
     .dropdown-content {
-      right: 10vw;
+      right: 5vw;
     }
   }
   /* Dropdown Content (Hidden by Default) */
