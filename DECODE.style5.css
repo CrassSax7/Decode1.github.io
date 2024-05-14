@@ -281,10 +281,7 @@ sectionG{
     max-width: 90px;
     max-height: 120px;
   }
-    @media screen and (max-width:600px) {
-    .dropdown-content {
-      right: 5vw;
-    }
+   
   }
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
@@ -295,7 +292,24 @@ sectionG{
     box-shadow: 0px 40px 40px 0px rgba(246, 7, 7, 0.2);
     z-index: 1;
   }
-  
+
+ @media screen and (max-width:600px) {
+    p5{
+      display: block;
+      color:#f91010;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      font-size: 100%;
+      font-weight: bold;
+      font-family: papyrus,'Times New Roman', Times, serif;
+      text-shadow: 3px 3px rgba(255, 74, 74, 0.3);
+    }
+    .dropdown-content {
+      right: 3vw;
+    }
+  }
+
   /* Links inside the dropdown */
   .dropdown-content a {
     color: rgb(255, 15, 15);
