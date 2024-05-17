@@ -313,6 +313,11 @@ sectionG{
     .dropdown-content {
       right: 3vw;
     }
+    .slideshow-container {
+     
+      margin-left: -5vw;
+    }
+      
   }
   
 .myDropdown{
